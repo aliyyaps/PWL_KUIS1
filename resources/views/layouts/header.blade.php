@@ -13,7 +13,8 @@ http://www.templatemo.com/tm-413-flip-turn
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 	<link href="asset/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="asset/css/magnific-popup.css" rel="stylesheet"> 
-	<link href="asset/css/templatemo_style.css" rel="stylesheet" type="text/css">	
+	<link href="asset/css/templatemo_style.css" rel="stylesheet" type="text/css">
+    	
 </head>
 <body>
 	<div class="main-container">
@@ -27,7 +28,7 @@ http://www.templatemo.com/tm-413-flip-turn
 			</ul>
 		</nav>
 	
-	<script type="text/javascript" src="asset/js/jquery-1.11.1.min.js"></script>
+	<!-- <script type="text/javascript" src="asset/js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="asset/js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="asset/js/modernizr.2.5.3.min.js"></script>
 	<script type="text/javascript" src="asset/js/jquery.magnific-popup.min.js"></script> 
@@ -42,4 +43,4 @@ http://www.templatemo.com/tm-413-flip-turn
 				}
 			});
 		});
-	</script>
+	</script> -->
