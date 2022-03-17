@@ -21,8 +21,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function product()
     {
-        return view('home');
+        return view('product')
+        ->with('title','Home');
     }
 }

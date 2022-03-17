@@ -9,3 +9,5 @@
 			<a href="#"><i class="fa fa-linkedin"></i></a>
 		</div>
 </footer>
+</body>
+</html>
