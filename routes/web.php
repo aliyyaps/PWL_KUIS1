@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PegawaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,5 @@ Route::get('/', function () {
 // Auth::routes();
 
 Route::get('/product', [App\Http\Controllers\HomeController::class, 'product'])->name('home');
+
+Route::get('/pegawai', [App\Http\Controllers\PegawaiController::class, 'pegawai'])->name('pegawai');
