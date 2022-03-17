@@ -26,7 +26,7 @@ http://www.templatemo.com/tm-413-flip-turn
 				<li class="btn"><a href="/supplier">Supplier</a></li>				
 			</ul>
 		</nav>
-		
+	
 	<script type="text/javascript" src="asset/js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="asset/js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="asset/js/modernizr.2.5.3.min.js"></script>
