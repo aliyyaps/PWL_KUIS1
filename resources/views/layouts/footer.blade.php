@@ -1,5 +1,5 @@
 <footer>
-	<p>Copyright &copy; 2084 Your Company Name</p>
+	<p>Copyright &copy; 2022 Beauty Shop</p>
 		<div class="social right">
 			<a href="#"><i class="fa fa-facebook"></i></a>
 			<a href="#"><i class="fa fa-twitter"></i></a>
