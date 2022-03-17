@@ -5,7 +5,7 @@ Flip Turn Template
 http://www.templatemo.com/tm-413-flip-turn
 -->
 <head>
-	<title>Beauty Shop</title>
+	<title>{{{$title}}}</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<meta charset="UTF-8">

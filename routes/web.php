@@ -23,6 +23,8 @@ Route::get('/', function () {
 
 Route::get('/product', [App\Http\Controllers\HomeController::class, 'product'])->name('home');
 
+Route::get('/pelanggan', [App\Http\Controllers\PelangganController::class, 'pelanggan'])->name('pelanggan');
+
 Route::get('/pegawai', [App\Http\Controllers\PegawaiController::class, 'pegawai'])->name('pegawai');
 
 Route::get('/supplier', [App\Http\Controllers\SupplierController::class, 'supplier'])->name('supplier');
