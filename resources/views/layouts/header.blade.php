@@ -5,7 +5,7 @@ Flip Turn Template
 http://www.templatemo.com/tm-413-flip-turn
 -->
 <head>
-	<title>Flip Turn Template</title>
+	<title>Beauty Shop</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<meta charset="UTF-8">
@@ -18,12 +18,27 @@ http://www.templatemo.com/tm-413-flip-turn
 <body>
 	<div class="main-container">
 		<nav class="main-nav">
-			<div id="logo" class="left"><a href="#">Flip Turn</a></div>
+			<div id="logo" class="left"><a href="#">Beauty Shop</a></div>
 			<ul class="nav right center-text">
-				<li class="btn">Home</li>
-				<li class="btn"><a href="about.html">About</a></li>
-				<li class="btn"><a href="awards.html">Awards</a></li>				
-				<li class="btn"><a href="contact.html">Contact</a></li>
-				<li class="btn"><a rel="nofollow" href="http://www.facebook.com/templatemo" target="_parent">External</a></li>
+				<li class="btn"><a href="/product">Product</li>
+				<li class="btn"><a href="/pelanggan">Pelanggan</a></li>
+				<li class="btn"><a href="/pegawai">Pegawai</a></li>
+				<li class="btn"><a href="/supplier">Supplier</a></li>				
 			</ul>
 		</nav>
+	<script type="text/javascript" src="asset/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="asset/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="asset/js/modernizr.2.5.3.min.js"></script>
+	<script type="text/javascript" src="asset/js/jquery.magnific-popup.min.js"></script> 
+	<script type="text/javascript" src="asset/js/templatemo_script.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.pagination li').click(changePage);
+			$('.portfolio-item').magnificPopup({ 
+				type: 'image',
+				gallery:{
+					enabled:true
+				}
+			});
+		});
+	</script>
