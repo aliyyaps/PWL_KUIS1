@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\SupplierController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,5 @@ Route::get('/', function () {
 Route::get('/product', [App\Http\Controllers\HomeController::class, 'product'])->name('home');
 
 Route::get('/pegawai', [App\Http\Controllers\PegawaiController::class, 'pegawai'])->name('pegawai');
+
+Route::get('/supplier', [App\Http\Controllers\SupplierController::class, 'supplier'])->name('supplier');
