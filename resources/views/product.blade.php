@@ -1,5 +1,5 @@
-@extends('layouts.main')
-@section('main')
+@extends('layouts.contain')
+@section('contain')
 <div class="content-container">
 			<header>
 			<h1 class="center-text">Image Gallery</h1>

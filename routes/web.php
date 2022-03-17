@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 // Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'product'])->name('home');
+Route::get('/product', [App\Http\Controllers\HomeController::class, 'product'])->name('home');

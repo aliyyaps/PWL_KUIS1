@@ -24,6 +24,6 @@ class HomeController extends Controller
     public function product()
     {
         return view('product')
-        ->with('title','Home');
+        ->with('title','productS');
     }
 }
