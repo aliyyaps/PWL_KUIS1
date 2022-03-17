@@ -20,7 +20,7 @@ http://www.templatemo.com/tm-413-flip-turn
 		<nav class="main-nav">
 			<div id="logo" class="left"><a href="#">Beauty Shop</a></div>
 			<ul class="nav right center-text">
-				<li class="btn"><a href="/product">Product</li>
+				<li class="btn"><a href="/product">Product</a></li>
 				<li class="btn"><a href="/pelanggan">Pelanggan</a></li>
 				<li class="btn"><a href="/pegawai">Pegawai</a></li>
 				<li class="btn"><a href="/supplier">Supplier</a></li>				
