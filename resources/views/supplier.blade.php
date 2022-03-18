@@ -6,6 +6,7 @@
         <h1 class="center-text">Daftar Supplier</h1>
         <h2 class="center-text">Di bawah ini merupakan Daftar Supplier dari Perusahaan Beauty Shop</h2>
     </header>
+    
     <div id="templatemo_timeline" class="content">
         <div class="container-fluid">
             @foreach($daftar as $d)

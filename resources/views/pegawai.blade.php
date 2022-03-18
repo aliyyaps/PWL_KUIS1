@@ -6,8 +6,8 @@
         <h1 class="center-text">Daftar Pegawai</h1>
         <h2 class="center-text">Di bawah ini merupakan Daftar Pegawai dari Perusahaan Beauty Shop</h2>
     </header>
+    
     <div class="templatemo-detail content">
-        
         <div class="container">
             <div class="row">
                 <table border=1 width=100% align=”center”>
