@@ -11,7 +11,7 @@ class ProductController extends Controller
         $data = Product::all();
         // $data = Product::paginate(2);
 
-        return view ('profile',['daftar' => $data])
+        return view ('product',['daftar' => $data])
         ->with('title','Product');
     }
 }
