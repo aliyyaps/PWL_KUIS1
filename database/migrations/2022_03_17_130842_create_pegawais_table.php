@@ -15,6 +15,10 @@ class CreatePegawaisTable extends Migration
     {
         Schema::create('pegawais', function (Blueprint $table) {
             $table->id();
+            $table->string('namaPegawai', 100)->index();
+            $table->string('jenisKelamin', 100)->index();
+            $table->string('alamat', 100)->index();
+            $table->string('noTelp', 100)->index();
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ class CreatePegawaisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pegawais');
+        Schema::dropIfExists('pegawai');
     }
 }
