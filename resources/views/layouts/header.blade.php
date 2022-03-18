@@ -14,6 +14,7 @@ http://www.templatemo.com/tm-413-flip-turn
 	<link href="asset/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="asset/css/magnific-popup.css" rel="stylesheet"> 
 	<link href="asset/css/templatemo_style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="asset/css/owl.carousel.min.css">
     	
 </head>
 <body>

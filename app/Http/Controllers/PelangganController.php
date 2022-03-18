@@ -8,6 +8,6 @@ class PelangganController extends Controller
 {
     public function pelanggan() {
         return view('pelanggan')
-        ->with('title','pelanggan');
+        ->with('title','Pelanggan');
     }
 }

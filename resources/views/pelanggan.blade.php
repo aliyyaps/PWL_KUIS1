@@ -1,33 +1,139 @@
 @extends('layouts.main')
 @section('main')
-<div class="content-container">
-			<header>
-				<h1 class="center-text">About Flip Turn</h1>
-				<h2 class="center-text">Nulla semper enim a tincidunt convallis. Ut urna magna, tristique vitae ante sit amet, adipiscing semper diam. Curabitur eget enim vel neque mollis mollis. Aliquam quis venenatis nisi.</h2>
-			</header>
-			<div class="templatemo-detail content">
+			<div class="content-container">
+						<header>
+							<h1 class="center-text">Data Pelanggan</h1>
+							<h2 class="center-text">Nulla semper enim a tincidunt convallis. Ut urna magna, tristique vitae ante sit amet, adipiscing semper diam. Curabitur eget enim vel neque mollis mollis. Aliquam quis venenatis nisi.</h2>
+						</header>
+						<div class="templatemo-detail content">
+							
+						<div class="content">
 				
-				<div class="about-detail">
-                    <h1>Aliquam quis arcu eu mi volutpat elementum</h1>	
-                    <img src="asset/images/3-small.jpg" alt="image 3" class="left shadow">
-					<p class="justify">Quisque venenatis, augue at dictum placerat, odio felis condimentum augue, a pellentesque velit mi sed justo. Sed tempor tempor massa, vitae auctor lacus ullamcorper ac. Nunc vehicula lectus dolor. Nunc dictum enim purus, scelerisque condimentum nisl tincidunt sit amet.</p>
-                    <br><p>Vivamus iaculis, lacus nec rutrum posuere, ante massa feugiat lorem, ac luctus lectus lectus quis nisi. Mauris tempus in tellus in rutrum. Nulla semper enim a tincidunt convallis. Ut urna magna, tristique vitae ante sit amet, adipiscing semper diam. Curabitur eget enim vel neque mollis mollis. Aliquam quis venenatis nisi.</p>
-                    <h3 class="subtitle">Proin adipiscing non urna ut gravida</h3>
-					<ul class="checkmark pad-left">
-						<li>Etiam consequat varius arcu eu interdum</li>
-						<li>Nunc pharetra tortor non neque posuere ultricies</li>
-						<li>Sed sed massa ut lectus egestas vulputate</li>
-                        <li>Phasellus sit amet erat quis odio euismod</li>
-					</ul>
-                    
-                    <br>
-                    
-                    <h1>Suspendisse quis est et nunc fermentum dictum</h1>	
-                    <img src="asset/images/6-small.jpg" alt="image 6" class="left shadow">
-					<p class="justify">Duis pretium metus sit amet quam placerat, nec ullamcorper tortor porta. Integer aliquam, elit porta ullamcorper auctor, dui turpis placerat diam, eu scelerisque nunc risus sed turpis. In id iaculis nunc. Sed fermentum purus orci, id tempus tortor congue nec. Integer non dui aliquam, molestie enim pretium, congue nisl. Proin condimentum quam at massa vehicula iaculis. Duis dictum hendrerit varius. Nulla mi odio, convallis ac molestie non, cursus condimentum tellus. Nam ornare lacus et vulputate rhoncus. Morbi a felis adipiscing, dapibus elit quis, imperdiet lacus.</p>
-                    <br><p>Curabitur sit amet magna sit amet nisl commodo iaculis. Sed pellentesque mauris id gravida porttitor. Maecenas eros nisl, molestie non nulla in, faucibus porta dui. Proin eu erat vitae mauris ullamcorper luctus quis vel nisi. Morbi pretium et justo at blandit. Morbi quis aliquam ipsum.</p>
-				</div>	
+				<div class="container">
+				<h2 class="mb-5">Table #6</h2>
+				
+
+				<div class="table-responsive">
+
+					<table class="table table-striped custom-table">
+					<thead>
+						<tr>
+						
+						<th scope="col">Order</th>
+						<th scope="col">Name</th>
+						<th scope="col">Occupation</th>
+						<th scope="col">Contact</th>
+						<th scope="col">Education</th>
+						<th scope="col"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr scope="row">
+
+						
+								
+								<td>
+									1392
+								</td>
+								<td><a href="#">James Yates</a></td>
+								<td>
+									Web Designer
+									<small class="d-block">Far far away, behind the word mountains</small>
+								</td>
+								<td>+63 983 0962 971</td>
+								<td>NY University</td>
+								<td><a href="#" class="more">Details</a></td>
+						
+						</tr>
+
+						<tr>
+						
+						<td>4616</td>
+						<td><a href="#">Matthew Wasil</a></td>
+						<td>
+							Graphic Designer
+							<small class="d-block">Far far away, behind the word mountains</small>
+						</td>
+						<td>+02 020 3994 929</td>
+						<td>London College</td>
+						<td><a href="#" class="more">Details</a></td>
+						</tr>
+						<tr>
+						
+						<td>9841</td>
+						<td><a href="#">Sampson Murphy</a></td>
+						<td>
+							Mobile Dev
+							<small class="d-block">Far far away, behind the word mountains</small>
+						</td>
+						<td>+01 352 1125 0192</td>
+						<td>Senior High</td>
+						<td><a href="#" class="more">Details</a></td>
+						</tr>
+						<tr>
+						
+						<td>9548</td>
+						<td><a href="#">Gaspar Semenov</a></td>
+						<td>
+							Illustrator
+							<small class="d-block">Far far away, behind the word mountains</small>
+						</td>
+						<td>+92 020 3994 929</td>
+						<td>College</td>
+						<td><a href="#" class="more">Details</a></td>
+						</tr>
+
+						<tr>
+						
+						<td>4616</td>
+						<td><a href="#">Matthew Wasil</a></td>
+						<td>
+							Graphic Designer
+							<small class="d-block">Far far away, behind the word mountains</small>
+						</td>
+						<td>+02 020 3994 929</td>
+						<td>London College</td>
+						<td><a href="#" class="more">Details</a></td>
+						</tr>
+						<tr>
+						
+						<td>9841</td>
+						<td><a href="#">Sampson Murphy</a></td>
+						<td>
+							Mobile Dev
+							<small class="d-block">Far far away, behind the word mountains</small>
+						</td>
+						<td>+01 352 1125 0192</td>
+						<td>Senior High</td>
+						<td><a href="#" class="more">Details</a></td>
+						</tr>
+						<tr>
+						
+						<td>9548</td>
+						<td><a href="#">Gaspar Semenov</a></td>
+						<td>
+							Illustrator
+							<small class="d-block">Far far away, behind the word mountains</small>
+						</td>
+						<td>+92 020 3994 929</td>
+						<td>College</td>
+						<td><a href="#" class="more">Details</a></td>
+						</tr>
+						
+					</tbody>
+					</table>
+				</div>
+
+
+				</div>
+
+			</div>
                 
 			</div>
 		</div> <!-- /.content-container -->		
+		<section>
+	<script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script></section>
 @endsection

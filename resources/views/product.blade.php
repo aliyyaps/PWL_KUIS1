@@ -3,17 +3,19 @@
 <section>
     <div class="content-container">
 			<header>
-			<h1 class="center-text">Image Gallery</h1>
-			<h2 class="center-text">Flip Turn is free HTML5 responsive website template by templatemo. Credit goes to <a rel="nofollow" href="http://www.unsplash.com">Unsplash</a> for images used in this template. Morbi hendrerit lacinia magna et tempus. Integer placerat sed nulla non tincidunt.</h2>
+			<h1 class="center-text">Product Gallery</h1>
+			<h2 class="center-text">Jika Anda adalah bagian dari wanita modern yang tidak dapat keluar rumah tanpa menggunakan makeup, koleksi kosmetik pada Beauty Kosmetik dijamin dapat
+				 memenuhi kebutuhan Anda untuk melengkapi koleksi kosmetik. Selamat berbelanja!</h2>
 		</header>
 		<div id="portfolio-content" class="center-text">
 			<div class="portfolio-page" id="page-1">
+			@foreach ($daftar as $d)
 				<div class="portfolio-group">
-					<a class="portfolio-item" href="asset/images/1-large.jpg">
-						<img src="asset/images/1-small.jpg" alt="image 1">
+					<a class="portfolio-item" img src="{{asset('asset/images/welcome-divider-lines.png')}}">
+						<img src="{{$d->gambar}}" alt="image 1">
 						<div class="detail">
-							<h3>Wavy Road</h3>
-							<p>Duis ac laoreet mi. Maecenas non lorem sed elit molestie tincidunt. Vestibulum tincidunt libero urna, ut dignissim purus accumsan nec.</p>
+							<h3>{{$d ->product}}</h3>
+							<p>{{$d ->manfaat}}</p>
 							<span class="btn">View</span>
 						</div>
 					</a>				
@@ -252,6 +254,7 @@
 						</div>
 					</a>				
 				</div>
+				@endforeach
 			</div> <!-- page 3 -->		
 			<div class="pagination">
 				<ul class="nav">
