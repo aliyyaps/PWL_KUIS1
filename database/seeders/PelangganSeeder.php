@@ -14,7 +14,7 @@ class PelangganSeeder extends Seeder
     public function run()
     {
         
-        DB::table('pelanggan')->insert([
+        DB::table('pelanggans')->insert([
             [
                 'nama' => 'Ahmad Yasir ',
                 'jenis_kelamin' => 'Laki-laki',
