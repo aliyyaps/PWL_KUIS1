@@ -6,7 +6,7 @@
 			<h1 class="center-text">Product Gallery</h1>
 			<h2 class="center-text">Jika Anda adalah bagian dari wanita modern yang tidak dapat keluar rumah tanpa menggunakan makeup, koleksi kosmetik pada Beauty Kosmetik dijamin dapat
 				 memenuhi kebutuhan Anda untuk melengkapi koleksi kosmetik. Selamat berbelanja!</h2>
-		</header>
+			</header>
 		<div id="portfolio-content" class="center-text">
 			<div class="portfolio-page">
 			@foreach ($daftar as $d)
@@ -28,14 +28,11 @@
 			<div class="pagination-links">
 				<ul class="nav">
 					{{ $daftar->onEachSide(1)->links() }}
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
 				</ul>
 			</div>
 		</div>
 </section>
-
+<section>
 	</div>	<!-- /.content-container -->
     <script type="text/javascript" src="asset/js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="asset/js/jquery.easing.1.3.js"></script>
@@ -52,5 +49,7 @@
 				}
 			});
 		});
-	</script>		
+	</script>
+</section>
+			
 @endsection

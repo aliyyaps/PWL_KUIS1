@@ -25,7 +25,7 @@ a { text-decoration: none; }
 --------------------------------------*/
 
 * {	font-family: 'Open Sans', sans-serif; }
-body { background-color: #3c373e; }
+body { background-color: rgb(255, 204, 204); }
 
 h1 {
 	font-size: 30px;
@@ -109,18 +109,18 @@ ul.nav li, .portfolio-group .detail h3, .templatemo_form button {
 
 p { line-height: 1.8em; }
 a { color: black; }
-i {	color: #909090; }
+i {	color: #757272; }
 footer {
 	margin-top: 10px;
 	padding: 15px 20px 10px 20px;
 	overflow: hidden;
-	background-color: rgba(237, 237, 237, 0.4);
+	background-color: rgb(255, 153, 153);
 	clear: both;
 }
 footer p {	
 	float: left;
 	margin-top: 6px;
-	color: #909090;
+	color: black;
 }
 footer i {	
 	display: inline-block;
