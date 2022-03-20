@@ -9,7 +9,7 @@ class ProductController extends Controller
     public function product()
     {
         $data = Product::all();
-        // $data = Product::paginate(2);
+        $data = Product::paginate(4);
 
         return view ('product',['daftar' => $data])
         ->with('title','Product');
