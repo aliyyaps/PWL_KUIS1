@@ -9,30 +9,40 @@
     
     <div class="templatemo-detail content">
         <div class="container">
-            <div class="row">
-                <table border=1 width=100% align=”center”>
-                    <thead>
-                        <tr>
-                            <th>ID Pegawai</th>
-                            <th>Nama Pegawai</th>
-                            <th>Jenis Kelamin</th>
-                            <th>Alamat</th>
-                            <th>Nomor Telepon</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach($daftar as $d)
-                        <tr>
-                            <td>{{$d -> id}}</td>
-                            <td>{{$d -> namaPegawai}}</td>
-                            <td>{{$d -> jenisKelamin}}</td>
-                            <td>{{$d -> alamat}}</td>
-                            <td>{{$d -> noTelp}}</td>
-                        </tr>
-                        @endforeach
-                    </tbody>
-                </table>
-            </div>
+            <div class="table-responsive">
+					<table class="table table-striped custom-table">
+						<thead>
+							<tr>
+							<th scope="col">ID</th>
+							<th scope="col">Nama Pegawai</th>
+							<th scope="col">Jenis Kelamin</th>
+							<th scope="col">Alamat</th>
+							<th scope="col">Telepon</th>
+							</tr>
+						</thead>
+							<tbody>
+							@foreach ($daftar as $d)
+								<tr scope="row">
+										<td>
+										{{$d ->id}}
+										</td>
+										<td><a href="#">{{$d ->namaPegawai}}</a></td>
+										<td>
+										{{$d ->jenisKelamin}}
+											<!-- <small class="d-block">Far far away, behind the word mountains</small> -->
+										</td>
+										<td>{{$d -> alamat}}</td>
+										<td>{{$d -> noTelp}}</td>
+								</tr>
+								@endforeach
+							</tbody>
+					</table>
+					
+					<div class="pagination">
+						<ul class="nav">
+							{{ $daftar->links() }}
+						</ul>
+					</div>
         </div>	
         
     </div>

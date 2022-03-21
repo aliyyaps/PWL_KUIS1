@@ -9,7 +9,7 @@ class SupplierController extends Controller
 {
     public function supplier() {
         $data = Supplier::all();
-        // $data = Pegawai::paginate(1);
+        $data = Supplier::paginate(3);
         return view('supplier', ['daftar' => $data])
         ->with('title','Supplier');
     }

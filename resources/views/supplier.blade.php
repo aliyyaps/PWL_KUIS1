@@ -20,6 +20,11 @@
             </div>
             @endforeach
         </div>
+        <div class="pagination">
+            <ul class="nav">
+                {{ $daftar->links() }}
+            </ul>
+        </div>
     </div>
 </div> <!-- /.content-container -->		
 
