@@ -15,6 +15,7 @@
 						<thead>
 							<tr>
 							<th scope="col">ID</th>
+							<th scope="col">Photo</th>
 							<th scope="col">Nama</th>
 							<th scope="col">Jenis Kelamin</th>
 							<th scope="col">Telepon</th>
@@ -28,6 +29,9 @@
 								<tr scope="row">
 										<td>
 										{{$p ->id}}
+										</td>
+										<td>
+										<img src="{{$p->photo}}">
 										</td>
 										<td><a href="#">{{$p ->nama}}</a></td>
 										
