@@ -17,7 +17,7 @@ class ProductSeeder extends Seeder
             [
                 'product' => 'Moiturizer ',
                 'jenis' => 'Skin Care',
-                'manfaat' => 'Melembabkan kulit',
+                'manfaat' => 'Melembabkan kulit, Mencegah jerawat, Memberi efek relaksasi',
                 'harga' => 37000,
                 'gambar' =>'asset/images/gambar1.png'
             ],
@@ -31,7 +31,7 @@ class ProductSeeder extends Seeder
             [
                 'product' => 'Exfoliating Toner',
                 'jenis' => 'Skin Care',
-                'manfaat' => 'Mengangkat sel kulit mati pada wajah,',
+                'manfaat' => 'mengangkat sel kulit mati pada wajah, membersihkan sisa kotoran, dan juga bermanfaat untuk mengembalikan pH normal kulit wajah',
                 'harga' => 1500000,
                 'gambar' =>'asset/images/gambar3.png'
             ],
@@ -45,28 +45,28 @@ class ProductSeeder extends Seeder
             [
                 'product' => 'Essence',
                 'jenis' => 'Skin Care',
-                'manfaat' => 'Menyeimbangan pH kulit wajah',
+                'manfaat' => 'Menyeimbangan pH kulit wajah, Menjaga kelembapan kulit wajah',
                 'harga' => 120000,
                 'gambar' =>'asset/images/gambar5.png'
             ],
             [
                 'product' => 'Facial Wash',
                 'jenis' => 'Skin Care',
-                'manfaat' => 'Menghilangkan Debu Dan Kotoran',
+                'manfaat' => 'Menghilangkan Debu, Kotoran dan MakeUp, Membersihkan Pori-Pori',
                 'harga' => 67000,
                 'gambar' =>'asset/images/gambar6.png'
             ], 
             [
                 'product' => 'Micellar Cleansing Water',
                 'jenis' => 'Skin Care',
-                'manfaat' => 'Mengurangi risiko iritasi kulit',
+                'manfaat' => 'Mengurangi risiko iritasi kulit, Mengangkat kotoran pada wajah',
                 'harga' => 35000,
                 'gambar' =>'asset/images/gambar7.png'
             ],
             [
                 'product' => 'Sheet Mask',
                 'jenis' => 'Masker Wajah',
-                'manfaat' => 'Mencerahkan wajah',
+                'manfaat' => 'Mencerahkan wajah, Memberi nutrisi pada kulit',
                 'harga' => 10000,
                 'gambar' =>'asset/images/gambar8.png'
             ],
@@ -122,7 +122,7 @@ class ProductSeeder extends Seeder
             [
                 'product' => 'Eye shadow',
                 'jenis' => 'Make Up',
-                'manfaat' => 'Untuk menghias kelopak mata ',
+                'manfaat' => 'Untuk menghias kelopak mata',
                 'harga' => 87000,
                 'gambar' =>'asset/images/gambar16.png'
             ]
