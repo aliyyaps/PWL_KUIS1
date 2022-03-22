@@ -17,6 +17,7 @@
 							<th scope="col">Nama Pegawai</th>
 							<th scope="col">Jenis Kelamin</th>
 							<th scope="col">Alamat</th>
+							<th scope="col">Email</th>
 							<th scope="col">Telepon</th>
 							</tr>
 						</thead>
@@ -28,10 +29,14 @@
 										</td>
 										<td><a href="#">{{$d ->namaPegawai}}</a></td>
 										<td>
-										{{$d ->jenisKelamin}}
-											<!-- <small class="d-block">Far far away, behind the word mountains</small> -->
+											@if($d->jenisKelamin==0)
+												Laki-laki
+											@else
+												Perempuan
+											@endif
 										</td>
 										<td>{{$d -> alamat}}</td>
+										<td>{{$d -> email}}</td>
 										<td>{{$d -> noTelp}}</td>
 								</tr>
 								@endforeach

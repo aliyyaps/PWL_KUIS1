@@ -9,7 +9,7 @@ class PegawaiController extends Controller
 {
     public function pegawai() {
         $data = Pegawai::all();
-        $data = Pegawai::paginate(3);
+        $data = Pegawai::paginate(4);
         return view('pegawai', ['daftar' => $data])
         ->with('title','Pegawai');
     }
