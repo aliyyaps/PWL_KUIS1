@@ -29,11 +29,7 @@ http://www.templatemo.com/tm-413-flip-turn
 		<nav class="main-nav">
 			<div id="logo" class="left"><a href="#">Beauty Shop</a></div>
 			<ul class="nav right center-text">
-<<<<<<< HEAD
 				<li class="btn"><a href="/index">Home</a></li>
-=======
-				<li class="btn"><a href="/home">Home</a></li>
->>>>>>> 884bc0bcb6e10f25468050502d1dd626a64c5ecd
 				<li class="btn"><a href="/product">Product</a></li>
 				<li class="btn"><a href="/pelanggan">Pelanggan</a></li>
 				<li class="btn"><a href="/pegawai">Pegawai</a></li>
