@@ -456,3 +456,20 @@ span.btn {
 	.main-nav ul.nav li.active { padding: 0; padding: 2% 0; }
 	.main-nav ul.nav li a:hover { padding: 2%; }
 }
+/* filter */
+/* .folio-filters { width: 100%; }
+.folio-filters li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.folio-filters li a {
+  display: block;
+  padding: 8px 30px;
+  font-weigth: bold;
+  text-transform: uppercase;
+  color: #5c5c5c;
+  background-color: #eeeeee;
+  -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+} */
+

@@ -4,7 +4,7 @@
 	<div class="content-container">
 		<header>
 			<h1 class="center-text">Data Pelanggan</h1>
-			<h2 class="center-text">Nulla semper enim a tincidunt convallis. Ut urna magna, tristique vitae ante sit amet, adipiscing semper diam. Curabitur eget enim vel neque mollis mollis. Aliquam quis venenatis nisi.</h2>
+			<h3 class="center-text">Kumpulan data dibawah ini Adalah data pelanggan Beauty Shop.</h3>
 		</header>
 			<div class="templatemo-detail content">					
 				<div class="content">
@@ -15,6 +15,7 @@
 						<thead>
 							<tr>
 							<th scope="col">ID</th>
+							<th scope="col">Photo</th>
 							<th scope="col">Nama</th>
 							<th scope="col">Jenis Kelamin</th>
 							<th scope="col">Telepon</th>
@@ -29,10 +30,17 @@
 										<td>
 										{{$p ->id}}
 										</td>
-										<td><a href="#">{{$p ->nama}}</a></td>
 										<td>
-										{{$p ->jenis_kelamin}}
-											<!-- <small class="d-block">Far far away, behind the word mountains</small> -->
+										<img src="{{$p->photo}}">
+										</td>
+										<td><a href="#">{{$p ->nama}}</a></td>
+										
+										<td>
+											@if($p->jenis_kelamin==0)
+												Laki-laki
+											@else
+												Perempuan
+											@endif
 										</td>
 										<td>{{$p -> telepon}}</td>
 										<td>{{$p -> alamat}}</td>
